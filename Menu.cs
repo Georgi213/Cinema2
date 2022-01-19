@@ -27,7 +27,7 @@ namespace Kinoteatr_bilet
             Kinozal_btn.Click += Kinozal_btn_Click;
 
             afisha = new PictureBox();//создали PictureBox
-            afisha.Size = new Size(250, 600);
+            afisha.Size = new Size(250, 400);
             afisha.Location = new Point(500, 20);
             afisha.SizeMode = PictureBoxSizeMode.StretchImage;
             afisha.ImageLocation = (@"..\..\image\spiderman3.jpg");
